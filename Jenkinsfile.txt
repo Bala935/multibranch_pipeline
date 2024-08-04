@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('Hotfix') { 
+        stage('Hotfix new update') { 
             steps { 
-               sh 'echo "This is hotfix branch..tomorrow we are going to discuss about Maven"' 
+               sh 'echo "This is hotfix new update branch..tomorrow we are going to discuss about Maven"' 
             }
         }
      
