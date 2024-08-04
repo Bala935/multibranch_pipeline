@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('Sprint1') { 
+        stage('Sprint1 new update') { 
             steps { 
-               sh 'echo "This is sprint1 branch..tomorrow we are going to discuss about Maven"' 
+               sh 'echo "This is sprint1 new update branch..tomorrow we are going to discuss about Maven"' 
             }
         }
      
